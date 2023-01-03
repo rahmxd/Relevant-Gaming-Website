@@ -24,5 +24,5 @@
 
 .header-navbar>li:hover{
     cursor: pointer;
-    color: var(--orange);
+    color: var(--green);
 }
