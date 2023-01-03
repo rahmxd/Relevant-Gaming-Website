@@ -60,13 +60,16 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
+            {/* LOGO */}
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <strong>RLVT</strong>
             <i class='fab fa-typo3' />
           </Link>
+          {/* MENU ICONS RIGHT */}
           <div className='menu-icon' onClick={handleClick}>
             {click ? <ImCross/> : <GiHamburgerMenu/>}
           </div>
+          {/* NAV MENU OPTION */}
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             {
                 navOptions.map((option, index) => {

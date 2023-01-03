@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
 }
@@ -14,7 +14,6 @@
 .hero-container > div > h1 {
     color:black;
     font-size: 100px;
-    margin-top: 180px;
 }
 
 .hero-container > div > h2 {
@@ -22,8 +21,12 @@
     color: black;
     margin-top: 8px;
     font-size: 32px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     /* might need to change font family later */
+}
+
+.hero-container > div > h2, h3 {
+    margin-left: 0.4rem;
 }
 
 .hero-btns {
@@ -34,6 +37,23 @@
     margin: 6px;
 }
 
+.hero {
+    margin-left: 100px;
+}
+
+.header {
+    margin-top: 180px;
+}
+
+.stats {
+    margin-left: 0.4rem;
+    margin-top: 2rem;
+}
+
+.stats > div {
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 1243px){
 
     .hero-container > div > h1 {
@@ -42,17 +62,26 @@
         margin-top: -150px;
     }
 
+    /* .hero {
+        margin: auto;
+    } */
+
 }
 
 @media screen and (max-width: 768px){
 
+    .hero {
+        margin: auto;
+    }
+
     .hero-container > div > h1 {
         text-align: center;
         font-size: 50px;
-        margin-top: -100px;
+        margin-top: 100px;
     }
 
     .hero-container > div > h2 {
+        text-align: center;
         font-size: 30px;
     }
 

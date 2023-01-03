@@ -9,10 +9,26 @@ const Hero = () => {
     <div className='hero-container'>
         {/* Headers */}
         <div className="hero header">
+            <h3>WE ARE</h3>
             <h1>RELEVANT</h1>
-            <h2>If you can't identify the target</h2>
-            <h2>You are the target</h2>
+            <h2>COMPETITIVE CDL TEAM</h2>
         </div>
+        {/* Buttons */}
+        <div className="hero hero-btns">
+            <Button
+                className='btns'
+                buttonStyle='btn--outline'
+                buttonSize='btn--large'
+            >
+                Get started
+            </Button>
+            <Button
+                className='btns'
+                buttonStyle='btn--primary'
+                buttonSize='btn--large'
+            >
+                Learn more
+            </Button>
         {/* Stats */}
         <div className="hero stats">
             <div>
@@ -32,22 +48,6 @@ const Hero = () => {
                 <span>teams</span>
             </div>
         </div>
-        {/* Buttons */}
-        <div className="hero hero-btns">
-            <Button
-                className='btns'
-                buttonStyle='btn--outline'
-                buttonSize='btn--large'
-            >
-                Get started
-            </Button>
-            <Button
-                className='btns'
-                buttonStyle='btn--primary'
-                buttonSize='btn--large'
-            >
-                Learn more
-            </Button>
         </div>
     </div>
   )
