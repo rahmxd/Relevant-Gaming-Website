@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className='hero-container'>
         {/* Headers */}
-        <div className="hero header">
+        <div className="hero best">
             <h3>WE ARE</h3>
             <h1>RELEVANT</h1>
             <h2>COMPETITIVE CDL TEAM</h2>
@@ -29,25 +29,6 @@ const Hero = () => {
             >
                 Learn more
             </Button>
-        {/* Stats */}
-        <div className="hero stats">
-            <div>
-                <span>+1</span>
-                <span>owner</span>
-            </div>
-            <div>
-                <span>+2</span>
-                <span>coaches</span>
-            </div>
-            <div>
-                <span>+32</span>
-                <span>members joined</span>
-            </div>
-            <div>
-                <span>+4</span>
-                <span>teams</span>
-            </div>
-        </div>
         </div>
     </div>
   )
