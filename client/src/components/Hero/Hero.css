@@ -16,6 +16,11 @@
     font-size: 100px;
 }
 
+.hero-container > div > h1:hover {
+    color:firebrick;
+    cursor: pointer;
+}
+
 .hero-container > div > h2 {
     /* color: darkred; */
     color: black;
@@ -50,16 +55,21 @@
 }
 
 
-@media screen and (max-width: 1243px){
+@media screen and (max-width: 1024px){
 
     .hero-container > div > h1 {
         /* text-align: center; */
         /* font-size: 70px; */
     }
 
-    /* .hero {
-        margin: auto;
-    } */
+    .hero {
+        margin-left: 20px;
+    }
+
+    .hero-container > div > h1 {
+        font-size: 75px;
+        /* color: white; */
+    }
 
 }
 

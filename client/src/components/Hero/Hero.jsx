@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="hero best">
             <h3>WE ARE</h3>
             <h1>RELEVANT</h1>
-            <h2>COMPETITIVE CDL TEAM</h2>
+            <h2>COMPETITIVE E-SPORTS TEAM</h2>
         </div>
         {/* Buttons */}
         <div className="hero hero-btns">
