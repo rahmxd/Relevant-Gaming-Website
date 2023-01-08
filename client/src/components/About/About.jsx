@@ -1,5 +1,5 @@
 import React from 'react'
-import './random.css'
+import './About.css'
 import soldier from '../../assets/mw2Soldier.png'
 import Button from '../Button/Button'
 
@@ -43,7 +43,7 @@ const About = () => {
             </article>
           </div>
           <Button
-                className='btns'
+                className='btns about__button'
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'
             >
