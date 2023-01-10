@@ -1,12 +1,10 @@
 import React from 'react';
 import Button from '../Button/Button';
-//organise styling sheets later
-import '../../App.css'
 import './Hero.css';
 
 const Hero = () => {
   return (
-    <div className='hero-container'>
+    <section className='hero-container container'>
         {/* Headers */}
         <div className="hero best">
             <h3>WE ARE</h3>
@@ -15,22 +13,14 @@ const Hero = () => {
         </div>
         {/* Buttons */}
         <div className="hero hero-btns">
-            <Button
-                className='btns'
-                buttonStyle='btn--outline'
-                buttonSize='btn--large'
-            >
+            <button>
                 Get started
-            </Button>
-            <Button
-                className='btns'
-                buttonStyle='btn--primary'
-                buttonSize='btn--large'
-            >
+            </button>
+            <button>
                 Learn more
-            </Button>
+            </button>
         </div>
-    </div>
+    </section>
   )
 }
 

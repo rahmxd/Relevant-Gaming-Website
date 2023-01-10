@@ -1,0 +1,124 @@
+.about {
+    background-image: linear-gradient(0deg, black, #242424);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 8rem;
+    /* height: 75vh; */
+}
+
+.about__title {
+    margin-left: 100px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    gap: 1rem;
+    color: var(--primary);
+    display: flex;
+    font-size: 28px;
+}
+
+.about__title > h1:nth-of-type(2) {
+    color: firebrick
+}
+
+.about__container {
+    margin: 0 4rem;
+    display: grid;
+    grid-template-columns: 55% 35%;
+    gap: 10%;
+}
+
+.about__left__column p {
+    margin: 1rem 0 2.6rem 0.3rem;
+    color: var(--primary);
+}
+
+.about__right__column {
+    width: 60%;
+    aspect-ratio: 1/1;
+    /* border-radius: 2rem; */
+    display: grid;
+    place-items: center;
+}
+
+.about__image {
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.about__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.about__text {
+    /* border: 1px solid transparent; */
+    border-radius: 1rem;
+    padding-top: 0;
+    padding-left: 2rem;
+    padding-bottom: 0rem;
+    /* text-align: center; */
+    color: var(--primary);
+}
+
+.about__text > h3 {
+    font-size: 1.2rem;
+
+}
+
+.about__text > p {
+    
+    font-size: 0.8rem;
+    color: white;
+}
+
+.about__left__column > .btn-mobile {
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    .about__container {
+        gap: 0%;
+        margin: 0 0;
+    }
+
+    .about__right__column {
+        grid-column: 1/-1;
+        width: 100%;
+        margin: 2rem 0 0 2rem;
+    }
+ 
+    .about__content {
+        grid-template-columns: 
+        repeat(auto-fit, minmax(22rem, 1fr));
+        /* grid-template-columns: 370px; */
+        gap: 1rem;
+    }
+ 
+    .about__left__column {
+        /* text-align: center; */
+        justify-content: center;
+    }
+ 
+    .about__left__column p {
+        margin: 1.5rem 0;
+    }
+
+    .about__left__column h3 {
+        margin: 0;
+    }
+
+    .about__title {
+        margin: 0 4.7rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .about__left__column > .btn-mobile {
+        margin-left: 2rem;
+        width: 165%;
+    }
+ }
