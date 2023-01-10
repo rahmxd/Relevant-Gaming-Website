@@ -52,7 +52,12 @@ function Navbar() {
                 navOptions.map((link, index) => {
                   return (
                     <li key={index}>
-                      <NavLink to={link.address} className={({isActive}) => isActive ? 'active-nav' : ''}>{link.name}</NavLink>
+                      <NavLink 
+                        to={link.address} 
+                        className={({isActive}) => isActive ? 'active-nav' : ''} 
+                        onClick={()=> setIsNavShowing(false)}>
+                          {link.name}
+                      </NavLink>
                     </li>
                   )
                 })
