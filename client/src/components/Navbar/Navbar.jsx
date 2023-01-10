@@ -44,7 +44,10 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='container navbar__container'>
-            <Link to='/' className='navbar__logo'>
+            <Link 
+              to='/' 
+              className='navbar__logo'
+              onClick={()=> setIsNavShowing(false)}>
               <strong>RLVT</strong>
             </Link>
             <ul className={`navbar__links ${isNavShowing ? 'show__navbar' : 'hide__navbar'}`}>
