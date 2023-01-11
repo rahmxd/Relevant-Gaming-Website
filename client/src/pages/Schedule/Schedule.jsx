@@ -2,7 +2,9 @@ import React from 'react'
 import './Schedule.css'
 const Schedule = () => {
   return (
-    <div>Schedule</div>
+    <section id='schedule' className='container schedule__container'>
+      Schedule
+    </section>
   )
 }
 
