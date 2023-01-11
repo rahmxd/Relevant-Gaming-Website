@@ -2,7 +2,7 @@ import React from 'react'
 import './Partners.css'
 const Partners = () => {
   return (
-    <section className='container partners__container'>Partners</section>
+    <section id='partners' className='container partners__container'>Partners</section>
   )
 }
 

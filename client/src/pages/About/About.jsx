@@ -4,7 +4,7 @@ import soldier from '../../assets/mw2Soldier.png'
 
 const About = () => {
   return (
-    <section className='About container'>
+    <section id='about' className='About container'>
       About Us
     </section>
     // <section className='about'>
