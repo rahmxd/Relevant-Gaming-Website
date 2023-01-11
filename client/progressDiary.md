@@ -6,7 +6,7 @@
 
 In the project directory, you can run:
 
-### `Navigation Issue: How to scroll to nested component within Parent route`
+### `Navigation Issue: How to scroll to nested component within Parent route 10/01/23`
 
 
 https://dev.to/medaminefh/passing-data-with-react-router-using-link-1h39
@@ -19,5 +19,10 @@ https://stackoverflow.com/questions/29811008/how-do-i-check-if-the-current-url-o
 
 https://www.w3schools.com/js/js_window_location.asp#:~:text=window.location.pathname%20returns%20the,()%20loads%20a%20new%20document
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `CSS background img cannot set opacity to highlight text in mobile devices, Solution: HTML img tag + css 11/01/23`
+
+https://stackoverflow.com/questions/31267425/use-the-html-img-tag-as-a-background-image-instead-of-the-css-background-image
+
+
+**Note: `note`**
 

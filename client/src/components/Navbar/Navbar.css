@@ -47,6 +47,12 @@ nav {
     transition: var(--transition);
 }
 
+.navbar__links__members:hover {
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+
 .active-nav {
     position: relative;
 }
