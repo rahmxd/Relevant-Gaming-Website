@@ -23,6 +23,10 @@ https://www.w3schools.com/js/js_window_location.asp#:~:text=window.location.path
 
 https://stackoverflow.com/questions/31267425/use-the-html-img-tag-as-a-background-image-instead-of-the-css-background-image
 
+### `Trigger CSS effect on Hero text when Viewport covers entire target element 12/01/23`
+
+https://react-intersection-observer.vercel.app/?path=/story/introduction--page
+
 
 **Note: `note`**
 
